@@ -17,9 +17,6 @@ class Recorder {
         this.dataArray = new Uint8Array(this.bufferLength);
 
         return Promise.resolve();
-      })
-      .catch(e => {
-        console.error(e);
       });
   }
 
